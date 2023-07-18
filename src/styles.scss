@@ -1,6 +1,6 @@
-@use './congif.scss/variables.scss';
-@use './congif.scss/reset.scss';
-@use './congif.scss/rem-calc.scss';
+@import './congif.scss/variables.scss';
+@import './congif.scss/reset.scss';
+@import './congif.scss/rem-calc.scss';
 
 html{
   font-family: 'Roboto', sans-serif;
@@ -8,7 +8,7 @@ html{
 }
 
 main{
-  max-width: rem-calc(600);
+  width: rem-calc(600);
   margin: 0 auto;
   box-sizing: border-box;
 }
